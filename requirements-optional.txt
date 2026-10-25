@@ -1,0 +1,9 @@
+# Revio v2 - Optional requirements
+# Install AFTER core: pip install -r requirements-optional.txt
+#
+# sentence-transformers: enables MiniLM embedding model for higher-accuracy sentiment
+#   (downloads ~90MB model on first use; CPU-only, no GPU needed)
+# openai: enables LLM-based reply generation (requires OPENAI_API_KEY in .env)
+
+sentence-transformers==3.1.1
+openai==1.50.2

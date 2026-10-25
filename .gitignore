@@ -1,0 +1,16 @@
+﻿__pycache__/
+*.pyc
+*.pyo
+.env
+data/reviews.csv
+data/reviews_labelled.csv
+data/reviews_train.csv
+data/reviews_val.csv
+data/reviews_test.csv
+data/reviews_hand_labelled_gold_set.csv
+models/*.pkl
+models/*.pt
+notebooks/.ipynb_checkpoints/
+docs/results/*.png
+*.egg-info/
+.venv/

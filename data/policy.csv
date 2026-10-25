@@ -1,0 +1,5 @@
+service_category,policy_statement,constraint
+refund_eligibility,"Refund eligible for: (1) service failures with rating <=2, (2) product quality defects, (3) delivery delays >48h.",Do not promise refund unless reason matches above.
+compensation,If refund approved: full refund. If partial fault: 50% refund or store credit. First-time customers: 20% discount on next purchase.,No refund > amount paid.
+escalation,"Any crisis review (safety, legal, health, fraud) escalates to manager within 24h.",Never auto-respond to crisis.
+language,Replies in language of review where possible. English fallback if needed.,Match review language.

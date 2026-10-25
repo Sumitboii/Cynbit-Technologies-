@@ -1,0 +1,99 @@
+id,location,platform,rating,text,date,language,sentiment,aspects,crisis_flag,crisis_category,severity
+hw_001,Mumbai North,Google Reviews,1,"Wah kya service hai, 2 ghante wait karwaya and they call it fast service. Mind blowing!",2026-10-23,hinglish,negative,wait_time:negative|service:negative,false,,high
+hw_002,Delhi CP,Google Reviews,1,"Awesome restaurant, food thanda tha like ice. Perfect for people who love cold biryani",2026-10-23,hinglish,negative,product_quality:negative,false,,high
+hw_003,Bangalore Downtown,Google Reviews,1,"Great staff, bilkul ignore kiya 30 min tak. Very attentive hi",2026-10-23,hinglish,negative,staff:negative,false,,high
+hw_004,Jaipur Old City,Google Reviews,1,"Excellent experience, bill aaya 5000 ka for 2 chai. Worth every rupee 🙂",2026-10-23,hinglish,negative,price:negative,false,,high
+hw_005,Mumbai South,Google Reviews,1,"Fantastic delivery, 3 din late aaya but packaging mast tha. Who needs on-time delivery",2026-10-23,hinglish,negative,delivery:negative|product_quality:positive,false,,high
+hw_006,Delhi CP,Google Reviews,1,"Zabardast cleanliness, cockroach mila soup mein. Very hygienic indeed",2026-10-23,hinglish,negative,cleanliness:negative,true,health,critical
+hw_007,Bangalore Tech Park,Google Reviews,1,"Wonderful staff, manager ne directly deny kiya refund for. Customer service at peak",2026-10-23,hinglish,negative,staff:negative|service:negative,false,,high
+hw_008,Jaipur Old City,Google Reviews,1,"Amazing quality, phone screen mein crack tha out of box. First class product",2026-10-23,hinglish,negative,product_quality:negative,false,,high
+hw_009,Mumbai North,Google Reviews,1,"Best experience ever, ordered veg got chicken. Great for vegetarians like me",2026-10-23,hinglish,negative,service:negative|product_quality:negative,false,,high
+hw_010,Delhi CP,Google Reviews,1,"Too good, AC nahi tha 40 degree heat mein. Very comfortable atmosphere",2026-10-23,hinglish,negative,ambiance:negative,false,,high
+hw_011,Bangalore Downtown,Google Reviews,2,"Staff ka behavior thoda rude tha, baat karne mein problem hui. Manager se complain kiya but no response abhi",2026-10-23,hinglish,negative,staff:negative,false,,high
+hw_012,Mumbai South,Google Reviews,2,"Food quality ok ok thi, but kitchen kaam nahi kar raha tha when we visited. Health related concern hai thoda",2026-10-23,hinglish,negative,product_quality:neutral|cleanliness:negative,false,,medium
+hw_013,Jaipur Old City,Google Reviews,2,Waiter ne galti se thoda spill kiya on my clothes. Apologize kiya but stains lag gaye. Legal jaake complain karna padega maybe,2026-10-23,hinglish,negative,staff:negative,false,,high
+hw_014,Delhi CP,Google Reviews,1,"Online order fraud hua thoda, extra charge kiya card se. Not sure if intentional but amount mismatch hai",2026-10-23,hinglish,negative,service:negative|price:negative,true,fraud,high
+hw_015,Bangalore Tech Park,Google Reviews,1,"Delivery guy rude tha aur package damaged. Fake product mila lagta hai, need to check",2026-10-23,hinglish,negative,delivery:negative|staff:negative,true,fraud,high
+hw_016,Mumbai North,Google Reviews,1,"Found something in food, not sure what but suspicious lag raha. Thoda health concern",2026-10-23,hinglish,negative,product_quality:negative|cleanliness:negative,false,,high
+hw_017,Delhi CP,Google Reviews,2,"Staff ne argue kiya bill ke baare mein, very unprofessional. Will think before coming again",2026-10-23,hinglish,negative,staff:negative,false,,medium
+hw_018,Jaipur Old City,Google Reviews,1,"Hygiene bilkul thik nahi, washroom dirty tha. Kitchen dekhne ko mila thoda, not great",2026-10-23,hinglish,negative,cleanliness:negative,false,,high
+hw_019,Mumbai North,Google Reviews,3,Food taste mast tha but service bahut slow. Overall OK experience,2026-10-23,hinglish,neutral,product_quality:positive|service:negative,false,,medium
+hw_020,Bangalore Downtown,Google Reviews,3,Staff friendly hai but price thoda zyada. Quality ke hisaab se OK,2026-10-23,hinglish,neutral,staff:positive|price:negative,false,,medium
+hw_021,Delhi CP,Google Reviews,3,Ambiance great hai but wait time kaafi. If you have patience then go,2026-10-23,hinglish,neutral,ambiance:positive|wait_time:negative,false,,medium
+hw_022,Mumbai South,Google Reviews,2,Delivery quick thi but packaging poor. Food thanda ho gaya,2026-10-23,hinglish,negative,delivery:positive|product_quality:negative,false,,medium
+hw_023,Jaipur Old City,Google Reviews,2,Product quality sahi hai but customer support hopeless. Good product bad service,2026-10-23,hinglish,negative,product_quality:positive|service:negative,false,,high
+hw_024,Bangalore Tech Park,Google Reviews,3,Location convenient hai but cleanliness lacking. Middle ground review,2026-10-23,hinglish,neutral,cleanliness:negative,false,,medium
+hw_025,Mumbai North,Google Reviews,3,Coffee acchi thi but place noisy. Barista kaafi talented hai though,2026-10-23,hinglish,neutral,product_quality:positive|ambiance:negative|staff:positive,false,,medium
+hw_026,Delhi CP,Google Reviews,3,Price reasonable but quality average. Value for money thodi kam,2026-10-23,hinglish,neutral,price:positive|product_quality:neutral,false,,medium
+hw_027,Bangalore Downtown,Google Reviews,5,"gr8 place to hangout, staff vry helpful n polite. will visit again fr sure",2026-10-23,hinglish,positive,staff:positive|service:positive,false,,low
+hw_028,Mumbai North,Google Reviews,1,"worst exp ever, food was stale n smelly. plz avoid dis place",2026-10-23,hinglish,negative,product_quality:negative,false,,high
+hw_029,Jaipur Old City,Google Reviews,5,"amzing servce, fast delivery n gud packaging. thx team",2026-10-23,hinglish,positive,service:positive|delivery:positive,false,,low
+hw_030,Delhi CP,Google Reviews,1,"bilkul bekar, wait 2 hrs n food cold. not wrth the money",2026-10-23,hinglish,negative,wait_time:negative|product_quality:negative,false,,high
+hw_031,Mumbai South,Google Reviews,5,"kya baat hai, mast food n gr8 vibe. love dis place",2026-10-23,hinglish,positive,product_quality:positive|ambiance:positive,false,,low
+hw_032,Bangalore Tech Park,Google Reviews,2,"ok ok exp, nothing special. food avg n servce slow",2026-10-23,hinglish,neutral,product_quality:neutral|service:negative,false,,medium
+hw_033,Mumbai North,Google Reviews,3,decnt place but overpriced. wld visit if discount avail,2026-10-23,hinglish,neutral,price:negative|ambiance:neutral,false,,medium
+hw_034,Delhi CP,Google Reviews,5,"fab food, vry tasty n fresh. staff also corteous. highli recmmnd",2026-10-23,hinglish,positive,product_quality:positive|staff:positive,false,,low
+hw_035,Bangalore Downtown,Google Reviews,5,Bahut hi accha experience tha. Staff ne khaas attention diya. Food bhi fresh aur tasty,2026-10-23,hinglish,positive,service:positive|staff:positive|product_quality:positive,false,,low
+hw_036,Mumbai North,Google Reviews,5,"Mast jagah hai, ambiance bilkul perfect. Family ke saath aaye aur enjoy kiya",2026-10-23,hinglish,positive,ambiance:positive,false,,low
+hw_037,Jaipur Old City,Google Reviews,5,"Service bahut quick thi, 10 min mein food aa gaya. Quality bhi top notch",2026-10-23,hinglish,positive,service:positive|wait_time:positive|product_quality:positive,false,,low
+hw_038,Delhi CP,Google Reviews,5,"Shukriya team, aapki wajah se din ban gaya. Price bhi reasonable tha",2026-10-23,hinglish,positive,price:positive|service:positive,false,,low
+hw_039,Mumbai South,Google Reviews,5,"Delivery boy bahut polite tha, time pe aaya. Packaging bhi sahi thi",2026-10-23,hinglish,positive,delivery:positive|staff:positive,false,,low
+hw_040,Bangalore Tech Park,Google Reviews,5,"Staff ka behavior bahut warm tha, jaise ghar mein. Will recommend to friends",2026-10-23,hinglish,positive,staff:positive|service:positive,false,,low
+hw_041,Mumbai North,Google Reviews,5,"Food quality kaafi accha, authentic taste mila. Clean bhi bilkul tha",2026-10-23,hinglish,positive,product_quality:positive|cleanliness:positive,false,,low
+hw_042,Delhi CP,Google Reviews,5,"Zabardast value for money, quantity bhi mast. Rs 200 mein full stomach",2026-10-23,hinglish,positive,price:positive|product_quality:positive,false,,low
+hw_043,Jaipur Old City,Google Reviews,5,"Accha laga, manager ne personally pucha feedback. Customer focus kaafi hai",2026-10-23,hinglish,positive,staff:positive|service:positive,false,,low
+hw_044,Bangalore Downtown,Google Reviews,5,"Atmosphere bahut chill hai, music bhi sahi. Perfect date spot",2026-10-23,hinglish,positive,ambiance:positive,false,,low
+hw_045,Mumbai North,Google Reviews,1,"Bilkul bekar experience, staff ne ignore kiya 20 min tak. Food bhi cold tha",2026-10-23,hinglish,negative,staff:negative|product_quality:negative,false,,high
+hw_046,Delhi CP,Google Reviews,1,"Paisa barbaad, 800 ka bill for tasteless food. Never coming back",2026-10-23,hinglish,negative,price:negative|product_quality:negative,false,,high
+hw_047,Bangalore Tech Park,Google Reviews,1,"Worst service ever, waiter ne galat order deliver kiya. Frustration ka level",2026-10-23,hinglish,negative,service:negative|staff:negative,false,,high
+hw_048,Mumbai South,Google Reviews,1,"Delivery 2 ghante late, food spoil ho gaya. Cold n stale, yuck",2026-10-23,hinglish,negative,delivery:negative|product_quality:negative,false,,high
+hw_049,Jaipur Old City,Google Reviews,1,"Place dirty hai, table pe stains. Bathroom bhi mess. Hygiene zero",2026-10-23,hinglish,negative,cleanliness:negative,false,,high
+hw_050,Delhi CP,Google Reviews,1,"Staff rude aur arrogant, manager bhi no help. Customer service ki toh bais",2026-10-23,hinglish,negative,staff:negative|service:negative,false,,high
+hw_051,Mumbai North,Google Reviews,1,"Wait time kaafi zyada, 45 min for simple order. Patience khatam",2026-10-23,hinglish,negative,wait_time:negative,false,,high
+hw_052,Bangalore Downtown,Google Reviews,1,"Product defect mila, screen mein crack. Return karna padega",2026-10-23,hinglish,negative,product_quality:negative,false,,high
+hw_053,Mumbai North,Google Reviews,3,"Theek tha, nothing special. Average food and OK service",2026-10-23,hinglish,neutral,product_quality:neutral|service:neutral,false,,medium
+hw_054,Delhi CP,Google Reviews,3,"Normal experience, price thoda zyada but quality OK. Ek baar try kar sakte ho",2026-10-23,hinglish,neutral,price:negative|product_quality:neutral,false,,medium
+hw_055,Bangalore Downtown,Google Reviews,3,"Decent place, not great not bad. Middle of the road experience",2026-10-23,hinglish,neutral,,false,,medium
+hw_056,Jaipur Old City,Google Reviews,3,"OK type, ambiance fine but food average. Once visit kar sakte",2026-10-23,hinglish,neutral,ambiance:neutral|product_quality:neutral,false,,medium
+hw_057,Mumbai South,Google Reviews,3,"Service normal, staff polite but slow. Depends on your luck",2026-10-23,hinglish,neutral,service:neutral|staff:positive|wait_time:negative,false,,medium
+hw_058,Delhi CP,Google Reviews,1,"Food poisoning ho gaya yahan se, full night vomit. Hospital jana pada. Dangerous",2026-10-23,hinglish,negative,product_quality:negative,true,health,critical
+hw_059,Mumbai North,Google Reviews,1,"Glass piece mila food mein, bachcha khaata toh injury ho sakti thi. Safety hazard",2026-10-23,hinglish,negative,product_quality:negative|cleanliness:negative,true,safety,critical
+hw_060,Bangalore Tech Park,Google Reviews,1,"Scam hai yeh company, payment leke product nahi bheja. Fraud case register karunga",2026-10-23,hinglish,negative,service:negative,true,fraud,critical
+hw_061,Mumbai South,Google Reviews,1,"Fake product mila, original nahi hai. Cheated completely. Court jaunga",2026-10-23,hinglish,negative,product_quality:negative,true,fraud,critical
+hw_062,Jaipur Old City,Google Reviews,1,"Unsafe place, floor pe paani tha aur main gir gaya. Injury hui. Lawsuit soch raha",2026-10-23,hinglish,negative,cleanliness:negative,true,safety,critical
+hw_063,Delhi CP,Google Reviews,1,"Food mein cockroach mila, photo le liya. Sabko bataunga social media pe. Expose",2026-10-23,hinglish,negative,cleanliness:negative|product_quality:negative,true,viral_risk,high
+hw_064,Mumbai North,Google Reviews,1,Allergy wala item mil gaya food mein despite telling them. Hospitalized. Legal action,2026-10-23,hinglish,negative,service:negative|product_quality:negative,true,legal,critical
+hw_065,Bangalore Downtown,Google Reviews,1,"Duplicate product mila, fake hai. cheated hoon. Police complain karna padega",2026-10-23,hinglish,negative,product_quality:negative,true,fraud,critical
+hw_066,Mumbai North,Google Reviews,5,Food mast tha 😋 staff bhi friendly. Will visit again for sure 👍,2026-10-23,hinglish,positive,product_quality:positive|staff:positive,false,,low
+hw_067,Delhi CP,Google Reviews,3,Slow service but food ok 😐 middle ground review. Not bad,2026-10-23,hinglish,neutral,service:negative|product_quality:neutral,false,,medium
+hw_068,Bangalore Downtown,Google Reviews,1,Worst experience 😡 money waste. Never recommend to anyone 👎,2026-10-23,hinglish,negative,price:negative|service:negative,false,,high
+hw_069,Jaipur Old City,Google Reviews,5,Great value ❤️ taste bhi sahi. Affordable and quality both 👌,2026-10-23,hinglish,positive,price:positive|product_quality:positive,false,,low
+hw_070,Mumbai South,Google Reviews,2,Ambiance ok but noisy 😤 hard to talk. Food compensated thoda,2026-10-23,hinglish,negative,ambiance:negative|product_quality:positive,false,,medium
+hw_071,Bangalore Downtown,Google Reviews,5,"Bahut accha place hai. Hum family ke saath aaye the, staff ne khaas care kiya. Food fresh tha, taste authentic. Price thoda zyada laga but quality justify karta hai. Cleanliness bhi top notch. Overall highly recommend",2026-10-23,hinglish,positive,staff:positive|product_quality:positive|price:neutral|cleanliness:positive,false,,low
+hw_072,Mumbai North,Google Reviews,1,"Disappointing visit. Booked table 8 baje but 8:30 ko bhi nahi mila. Wait 1 hour. Staff rude, manager ne ignore kiya. Food aane mein 45 min. Cold aaya. Bill 3000 for average food. Never again",2026-10-23,hinglish,negative,service:negative|staff:negative|wait_time:negative|product_quality:negative|price:negative,false,,high
+hw_073,Delhi CP,Google Reviews,3,"First time ordered online. Delivery on time thi, packaging sahi. But food quality disappointed, dal tasteless thi. Roti hard. Price OK. Maybe dine-in better hoga. Neutral experience overall",2026-10-23,hinglish,neutral,delivery:positive|product_quality:negative|price:neutral,false,,medium
+hw_074,Bangalore Tech Park,Google Reviews,4,"Cafe ka vibe mast hai, perfect for work ya chill. Coffee strong aur tasty. Wifi fast. Only issue noise kabhi kabhi. Staff attentive. Price reasonable for quality. Will come back",2026-10-23,hinglish,positive,ambiance:positive|product_quality:positive|staff:positive|price:positive,false,,low
+hw_075,Mumbai South,Google Reviews,5,"Service बहुत अच्छा था, staff cooperative. Food भी ताज़ा था. Will come back",2026-10-23,hindi,positive,service:positive|staff:positive|product_quality:positive,false,,low
+hw_076,Jaipur Old City,Google Reviews,1,"बिल्कुल बेकार, food ठंडा था. Staff ने ignore किया. Not worth money",2026-10-23,hindi,negative,product_quality:negative|staff:negative,false,,high
+hw_077,Mumbai North,Google Reviews,3,,2026-10-23,english,neutral,,false,,medium
+hw_078,Delhi CP,Google Reviews,3,Ok,2026-10-23,hinglish,neutral,,false,,medium
+hw_079,Bangalore Downtown,Google Reviews,3,🙂,2026-10-23,hinglish,neutral,,false,,medium
+hw_080,Mumbai North,Google Reviews,4,GOOD GOOD GOOD service,2026-10-23,english,positive,service:positive,false,,low
+hw_081,Delhi CP,Google Reviews,3,Staff tried to help but kitchen mess. Food delayed but they apologized. Partial refund mila. OK handling,2026-10-23,hinglish,neutral,staff:positive|service:negative|price:positive,false,,medium
+hw_082,Jaipur Old City,Google Reviews,2,Food quantity kam for price. Taste OK. Not bad but not great. Middle,2026-10-23,hinglish,negative,price:negative|product_quality:neutral,false,,medium
+hw_083,Bangalore Downtown,Google Reviews,3,"Atmosphere nice but service inconsistent. Sometimes fast, sometimes slow. Depends on day",2026-10-23,hinglish,neutral,ambiance:positive|service:neutral|wait_time:neutral,false,,medium
+hw_084,Mumbai South,Google Reviews,2,Manager promised followup but never called back. Disappointed with customer care,2026-10-23,hinglish,negative,service:negative|staff:negative,false,,high
+hw_085,Mumbai North,Google Reviews,3,"Online order, wrong item aaya. Return process easy but inconvenience hua. Mixed feelings",2026-10-23,hinglish,neutral,delivery:negative|service:neutral,false,,medium
+hw_086,Delhi CP,Google Reviews,3,Loyalty program join kiya but benefits unclear. Staff explained but confusing. OK,2026-10-23,hinglish,neutral,service:neutral,false,,medium
+hw_087,Bangalore Tech Park,Google Reviews,4,"Big group ke saath aaye, table manage hua well. Food thoda late but quantity sahi. Team effort good",2026-10-23,hinglish,positive,staff:positive|wait_time:negative|product_quality:positive,false,,low
+hw_088,Jaipur Old City,Google Reviews,3,Accha tha but thoda overrated. Hype ke hisaab se OK. Food quality fine but nothing special,2026-10-23,hinglish,neutral,product_quality:neutral,false,,medium
+hw_089,Mumbai North,Google Reviews,2,"Takeaway order, packing leaked. Food spill in bag. Taste OK but mess. Better packaging chahiye",2026-10-23,hinglish,negative,delivery:negative|product_quality:neutral,false,,medium
+hw_090,Delhi CP,Google Reviews,3,Waiter ki English thodi weak but effort accha. Order galat hua but replace kiya fast. Forgiving,2026-10-23,hinglish,neutral,staff:positive|service:negative,false,,medium
+hw_091,Bangalore Downtown,Google Reviews,2,"Kitchen mein awaaz aa rahi thi, looks chaotic. Food OK but behind scene doubt. Hygiene concern thoda",2026-10-23,hinglish,negative,cleanliness:negative|product_quality:neutral,false,,medium
+hw_092,Mumbai South,Google Reviews,3,"Festival season crowded tha, staff overwhelmed but trying. Wait expected. Manage kar diya. Understanding",2026-10-23,hinglish,neutral,staff:positive|wait_time:negative,false,,medium
+hw_093,Delhi CP,Google Reviews,3,"Quality inconsistent across visits. Pehli baar accha, dusri baar average. Consistency issue",2026-10-23,hinglish,neutral,product_quality:neutral,false,,medium
+hw_094,Jaipur Old City,Google Reviews,1,"AC not working properly, sweating while eating. Manager said will fix but didn't. Uncomfortable",2026-10-23,hinglish,negative,ambiance:negative|staff:negative,false,,high
+hw_095,Bangalore Tech Park,Google Reviews,1,"Ordered Jain food, got regular. Religious concern for some. Apologized but mistake bada",2026-10-23,hinglish,negative,service:negative,false,,high
+hw_096,Mumbai North,Google Reviews,1,"Staff chatting among themselves, customers ignore. Bad attitude. Manager also same",2026-10-23,hinglish,negative,staff:negative,false,,high
+hw_097,Delhi CP,Google Reviews,1,Price display and bill mismatch. Extra charge kiya without telling. Feel cheated thoda,2026-10-23,hinglish,negative,price:negative,true,fraud,high
+hw_098,Bangalore Downtown,Google Reviews,2,"Lunch buffet limited options, not worth price. Taste OK. Better a la carte maybe",2026-10-23,hinglish,negative,price:negative|product_quality:neutral,false,,medium

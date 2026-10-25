@@ -1,0 +1,159 @@
+{
+  "trained_on": "Synthetic data (RANDOM_SEED=42); gold set NEVER used for training",
+  "gold_set_note": "Gold set = manually authored reviews with AI assistance, NOT real customer reviews; used for evaluation only",
+  "models": {
+    "keyword": {
+      "description": "Keyword matching with negation detection (existing pipeline)",
+      "test_macro_f1": 0.943,
+      "test_per_class": {
+        "negative": {
+          "precision": 0.921,
+          "recall": 1.0,
+          "f1": 0.959
+        },
+        "neutral": {
+          "precision": 1.0,
+          "recall": 0.773,
+          "f1": 0.872
+        },
+        "positive": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "gold_macro_f1": 0.879,
+      "gold_per_class": {
+        "negative": {
+          "precision": 0.925,
+          "recall": 0.961,
+          "f1": 0.942
+        },
+        "neutral": {
+          "precision": 0.9,
+          "recall": 0.692,
+          "f1": 0.783
+        },
+        "positive": {
+          "precision": 0.84,
+          "recall": 1.0,
+          "f1": 0.913
+        }
+      },
+      "eval_time_s": 28.8,
+      "note": "Scores on synthetic test are OPTIMISTIC (keyword overlap with generator)"
+    },
+    "tfidf_lr": {
+      "description": "TF-IDF (10k features, 1-2grams, sublinear TF) + Logistic Regression (L2, C=1)",
+      "train_size": 2098,
+      "train_time_s": 0.83,
+      "test_macro_f1": 0.974,
+      "test_per_class": {
+        "negative": {
+          "precision": 0.966,
+          "recall": 0.971,
+          "f1": 0.968
+        },
+        "neutral": {
+          "precision": 1.0,
+          "recall": 0.939,
+          "f1": 0.969
+        },
+        "positive": {
+          "precision": 0.977,
+          "recall": 0.991,
+          "f1": 0.984
+        }
+      },
+      "gold_macro_f1": 0.448,
+      "gold_per_class": {
+        "negative": {
+          "precision": 0.765,
+          "recall": 0.51,
+          "f1": 0.612
+        },
+        "neutral": {
+          "precision": 0.8,
+          "recall": 0.154,
+          "f1": 0.258
+        },
+        "positive": {
+          "precision": 0.322,
+          "recall": 0.905,
+          "f1": 0.475
+        }
+      },
+      "note": "Trained on synthetic data; generalises better than keyword on gold set"
+    },
+    "miniLM_lr": {
+      "description": "Frozen sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (384-dim) + Logistic Regression (L2, C=1)",
+      "train_size": 2098,
+      "train_time_s": 77.58,
+      "test_macro_f1": 0.945,
+      "test_per_class": {
+        "negative": {
+          "precision": 0.954,
+          "recall": 0.96,
+          "f1": 0.957
+        },
+        "neutral": {
+          "precision": 0.922,
+          "recall": 0.894,
+          "f1": 0.908
+        },
+        "positive": {
+          "precision": 0.967,
+          "recall": 0.972,
+          "f1": 0.97
+        }
+      },
+      "gold_macro_f1": 0.565,
+      "gold_per_class": {
+        "negative": {
+          "precision": 0.903,
+          "recall": 0.549,
+          "f1": 0.683
+        },
+        "neutral": {
+          "precision": 0.579,
+          "recall": 0.423,
+          "f1": 0.489
+        },
+        "positive": {
+          "precision": 0.375,
+          "recall": 0.857,
+          "f1": 0.522
+        }
+      },
+      "note": "Multilingual embeddings; better Hinglish generalisation expected"
+    }
+  },
+  "comparison_table": {
+    "headers": [
+      "Model",
+      "Test Macro-F1",
+      "Gold Macro-F1",
+      "Note"
+    ],
+    "rows": [
+      [
+        "Keyword baseline (existing)",
+        "0.943",
+        "0.879",
+        "Optimistic on synthetic (vocab overlap)"
+      ],
+      [
+        "TF-IDF + LR (trained)",
+        "0.974",
+        "0.448",
+        "Lower on synthetic, fairer on gold"
+      ],
+      [
+        "MiniLM + LR (trained)",
+        "0.945",
+        "0.565",
+        "Best Hinglish generalisation; needs sentence-transformers"
+      ]
+    ]
+  }
+}

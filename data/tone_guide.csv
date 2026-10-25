@@ -1,0 +1,8 @@
+scenario,approved_response_pattern,tone,language
+negative_service,"Acknowledge {aspect}, apologise, explain root cause if simple, offer resolution per policy.","Warm, empathetic, professional",english
+negative_price,"Acknowledge price concern, explain value, no promises on discounts.","Respectful, business-like",english
+positive_general,"Thank customer warmly, mention specific aspect, invite return.","Genuine, uplifting",english
+crisis_safety,"Immediately escalate to management. Do not promise anything. Acknowledge concern, assure investigation.","Formal, urgent, reassuring",english
+crisis_legal,Do not admit fault. Do not promise resolution. Escalate immediately.,"Formal, neutral",english
+hinglish_positive,Shukriya! Aapke feedback se hum bahut khush hain. Aisi hi service denge.,"Warm, colloquial",hinglish
+hinglish_negative,Hum apka experience samajhte hain. Team ko inform karenge aur jald fix karenge.,"Empathetic, colloquial",hinglish

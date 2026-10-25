@@ -1,0 +1,236 @@
+{
+  "sentiment": {
+    "macro_f1": 0.993,
+    "per_class": {
+      "negative": {
+        "precision": 1.0,
+        "recall": 0.979,
+        "f1": 0.989
+      },
+      "neutral": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "positive": {
+        "precision": 0.977,
+        "recall": 1.0,
+        "f1": 0.989
+      }
+    },
+    "confusion_matrix": {
+      "negative": {
+        "negative": 46,
+        "neutral": 0,
+        "positive": 1
+      },
+      "neutral": {
+        "negative": 0,
+        "neutral": 9,
+        "positive": 0
+      },
+      "positive": {
+        "negative": 0,
+        "neutral": 0,
+        "positive": 43
+      }
+    }
+  },
+  "crisis": {
+    "precision": 0.952,
+    "recall": 1.0,
+    "f1": 0.976,
+    "tp": 20,
+    "fp": 1,
+    "fn": 0,
+    "tn": 78
+  },
+  "aspects": {
+    "precision": 0.958,
+    "recall": 1.0,
+    "f1": 0.979
+  },
+  "severity": {
+    "macro_f1": 0.993,
+    "per_class": {
+      "critical": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "high": {
+        "precision": 1.0,
+        "recall": 0.964,
+        "f1": 0.982
+      },
+      "medium": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "low": {
+        "precision": 0.977,
+        "recall": 1.0,
+        "f1": 0.989
+      }
+    }
+  },
+  "latency": {
+    "cold_start_s": 0.0,
+    "avg_latency_s": 0.004,
+    "max_latency_s": 0.006
+  },
+  "language_specific": {
+    "english": {
+      "macro_f1": 1.0,
+      "per_class": {
+        "negative": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "neutral": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "positive": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      }
+    },
+    "hinglish": {
+      "macro_f1": 1.0,
+      "per_class": {
+        "negative": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "neutral": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "positive": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      }
+    },
+    "hindi": {
+      "macro_f1": 0.964,
+      "per_class": {
+        "negative": {
+          "precision": 1.0,
+          "recall": 0.875,
+          "f1": 0.933
+        },
+        "neutral": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "positive": {
+          "precision": 0.923,
+          "recall": 1.0,
+          "f1": 0.96
+        }
+      }
+    }
+  },
+  "explanations": [
+    {
+      "review_id": "rev_02572",
+      "text": "Fast was wonderful but clean was excellent.",
+      "sentiment": "positive",
+      "sentiment_explanation": "Detected via baseline model. Confidence: 0.94",
+      "aspects": [
+        {
+          "aspect": "cleanliness",
+          "sentiment": "positive",
+          "confidence": 0.8,
+          "evidence": "fast was wonderful but clean was excellent."
+        },
+        {
+          "aspect": "wait_time",
+          "sentiment": "positive",
+          "confidence": 0.8,
+          "evidence": "fast was wonderful but clean was e"
+        }
+      ],
+      "crisis_explanation": []
+    },
+    {
+      "review_id": "rev_01915",
+      "text": "music was badhiya bahut accha tha, shukriya team!",
+      "sentiment": "positive",
+      "sentiment_explanation": "Detected via baseline model. Confidence: 0.92",
+      "aspects": [
+        {
+          "aspect": "ambiance",
+          "sentiment": "positive",
+          "confidence": 0.8,
+          "evidence": "music was badhiya bahut accha tha,"
+        }
+      ],
+      "crisis_explanation": []
+    },
+    {
+      "review_id": "rev_02520",
+      "text": "dirty was mast bahut accha tha, shukriya team! \u2764\ufe0f",
+      "sentiment": "positive",
+      "sentiment_explanation": "Detected via baseline model. Confidence: 0.91",
+      "aspects": [
+        {
+          "aspect": "cleanliness",
+          "sentiment": "positive",
+          "confidence": 0.8,
+          "evidence": "dirty was mast bahut accha tha, shu"
+        }
+      ],
+      "crisis_explanation": []
+    },
+    {
+      "review_id": "rev_02117",
+      "text": "Great stale was excellent! Really impressed. \ud83d\udc4f",
+      "sentiment": "positive",
+      "sentiment_explanation": "Detected via baseline model. Confidence: 0.95",
+      "aspects": [
+        {
+          "aspect": "cleanliness",
+          "sentiment": "neutral",
+          "confidence": 0.8,
+          "evidence": "great stale was excellent! really impress"
+        }
+      ],
+      "crisis_explanation": []
+    },
+    {
+      "review_id": "rev_02604",
+      "text": "Bahut accha helpful was great tha! Paka dubara aaunga.",
+      "sentiment": "positive",
+      "sentiment_explanation": "Detected via baseline model. Confidence: 0.95",
+      "aspects": [
+        {
+          "aspect": "staff",
+          "sentiment": "positive",
+          "confidence": 0.8,
+          "evidence": "bahut accha helpful was great tha! paka dubara aa"
+        }
+      ],
+      "crisis_explanation": []
+    }
+  ],
+  "summary": {
+    "sentiment_macro_f1": 0.993,
+    "crisis_recall": 1.0,
+    "crisis_precision": 0.952,
+    "aspect_f1": 0.979,
+    "cold_start_s": 0.0,
+    "avg_latency_s": 0.004
+  }
+}
